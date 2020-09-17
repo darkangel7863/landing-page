@@ -246,3 +246,21 @@ section.your-active-class .landing__container::after {
     transform: rotate(360deg) translate(-1em) rotate(-360deg);
   }
 }
+#btn{
+	display:none;
+	position:fixed;
+	bottom:20px;
+	right:50px;
+	z-index:99;
+	border:none;
+	outline:none;
+	background-color: green;
+	color:white;
+	cursor:pointer;
+	padding:15px;
+	border-radius: 10px;
+	font-size:18px;
+}
+#btn:hover{
+	background-color:#555;
+}
